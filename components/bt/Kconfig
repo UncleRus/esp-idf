@@ -1005,7 +1005,7 @@ config BT_BLE_DYNAMIC_ENV_MEMORY
         This select can make the allocation of memory will become more flexible
 
 config BLE_SCAN_DUPLICATE
-    bool "BLE Scan Duplicate Options "
+    bool "BLE Scan Duplicate Options"
     depends on BLUEDROID_ENABLED
     default y
     help
